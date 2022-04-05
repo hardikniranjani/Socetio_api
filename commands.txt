@@ -1,0 +1,15 @@
+First Uninstall old version of node
+====================================
+sudo apt-get remove nodejs  ( 0.10.48 )
+sudo apt-get remove npm  ( 1.3.6 )
+====================================
+
+Second install required version of node v10.19.0
+======================================
+sudo apt install curl
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt-get update
+sudo apt-get install nodejs
+nodejs -v
+npm -v
+======================================

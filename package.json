@@ -1,0 +1,24 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "watch": "npm run development -- --watch",
+        "prod": "npm run production"
+    },
+    "devDependencies": {
+        "axios": "^0.18",
+        "cross-env": "^5.1",
+        "jquery": "^3.5",
+        "lodash": "^4.17.13",
+        "popper.js": "^1.12",
+        "resolve-url-loader": "^2.3.1"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.3",
+        "pm2": "^4.4.1",
+        "pusher-js": "^4.4.0",
+        "socket.io": "^2.3.0"
+    }
+}
