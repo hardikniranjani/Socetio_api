@@ -10,9 +10,6 @@ var axios = require("axios");
 users = [];
 connections = [];
 //var people={};
-app.use('/', (req,res)=>{
-  res.send('hello world');
-})
 console.log("Server connected done");
 
 io.sockets.on("connection", function (socket) {
