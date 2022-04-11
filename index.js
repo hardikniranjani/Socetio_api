@@ -12,7 +12,6 @@ connections = [];
 //var people={};
 app.use('/', (req,res)=>{
   res.send('hello world');
-  console.log('hello world')
 })
 console.log("Server connected done");
 
